@@ -1,0 +1,39 @@
+.hero {
+  background: url("../imgs/hero.jpg") no-repeat center center/cover;
+  height: 500px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 300px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
+.icon-section img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+footer {
+  color: #fff;
+  background-color: #4e4d4d;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul li {
+  margin-bottom: 5px;
+}
+footer p {
+  margin: 0;
+}
+
+.navbar-toggler {
+  display: flex;
+}
